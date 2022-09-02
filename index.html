@@ -1,250 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Portfolio</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-        <div class="container-fluid">
-            <a class="navbar-brand text-light" href="#">Umer Zia</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">Umer Zia</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" aria-current="page" href="#">Home</a
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-light" aria-current="page" href="#"
+                >Home</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#"><img src="images/inbox.svg" alt="" /></a>
-                    </li>
-                </ul>
-            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#"
+                ><img src="images/inbox.svg" alt=""
+              /></a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    
+
     <!-- Header Section -->
     <section class="bg-dark">
-        <div class="container-fluid">
-            <div class="row justify-content-between">
-                <div class="col-md-5 text-start text-md-start d-flex align-items-center">
-                    <h1>
-                        <div class="fs-1 fw-bold text-light mt-5 mb-2">
-                            Hey There<br />I'm Umer.
-                        </div>
-                        <div class="fs-1 fw-normal text-light my-2">
-                            I am a Software Developer
-                        </div>
-                        <div class="fs-4 fw-lighter text-light mt-4 mb-5">
-                            I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.
-                        </div>
-                    </h1>
-                </div>
-                <div class="col-md-5 text-end d-none d-md-block">
-                    <img class="img-fuild w-50" src="images/Illustration-header.svg" alt="Background Pattern" />
-                </div>
-            </div>
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div
+            class="col-md-5 text-start text-md-start d-flex align-items-center"
+          >
+            <h1>
+              <div class="fs-1 fw-bold text-light mt-5 mb-2">
+                Hey There<br />I'm Umer.
+              </div>
+              <div class="fs-1 fw-normal text-light my-2">
+                I am a Software Developer
+              </div>
+              <div class="fs-4 fw-lighter text-light mt-4 mb-5">
+                I can help you build a product , feature or website Look through
+                some of my work and experience! If you like what you see and
+                have a project you need coded, don't hestiate to contact me.
+              </div>
+            </h1>
+          </div>
+          <div class="col-md-5 text-end d-none d-md-block">
+            <img
+              class="img-fuild w-50"
+              src="images/Illustration-header.svg"
+              alt="Background Pattern"
+            />
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Card Section -->
     <!-- Main Card -->
     <section class="bg-light">
-        <div class="container-fluid">
-            <div class="row">
-                <div>
-                    <h1 class="fs-1 text-dark pt-5 my-5">Work Section</h1>
-                </div>
-                <div class="row">
-                    <img class="col-md-6" src="images/main-card-web-image.svg" alt="Exercise Image"/>
-                    <div class="col-md-6">
-                        <h2 class="fs-1 text-dark mb-2">Multi-Post Stories</h2>
-                        <p class="fs-4 fw-normal text-dark my-2">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.
-                        </p>
-                        <div class="py-3">
-                            <button class="btn btn-outline-dark" type="submit">css</button>
-                            <button class="btn btn-outline-dark" type="submit">html</button>
-                            <button class="btn btn-outline-dark" type="submit">
+      <div class="container-fluid">
+        <div class="row">
+          <div>
+            <h1 class="fs-1 text-dark pt-5 my-5">Work Section</h1>
+          </div>
+          <div class="row">
+            <img
+              class="col-md-6"
+              src="images/main-card-web-image.svg"
+              alt="Exercise Image"
+            />
+            <div class="col-md-6">
+              <h2 class="fs-1 text-dark mb-2">Multi-Post Stories</h2>
+              <p class="fs-4 fw-normal text-dark my-2">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="py-3">
+                <button class="btn btn-outline-dark" type="submit">css</button>
+                <button class="btn btn-outline-dark" type="submit">html</button>
+                <button class="btn btn-outline-dark" type="submit">
                   bootstrap
                 </button>
-                            <button class="btn btn-outline-dark" type="submit">Ruby</button>
-                        </div>
-                        <div>
-                            <button class="btn btn-warning">See Project</button>
-                        </div>
-                    </div>
-                </div>
+                <button class="btn btn-outline-dark" type="submit">Ruby</button>
+              </div>
+              <div>
+                <button class="btn btn-warning">See Project</button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- sub cards -->
     <section class="bg-light py-3">
-        <div class="container-fluid row justify-content-center">
-            <!-- Card -->
-            <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
+      <div class="container-fluid row justify-content-center">
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
             </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
-             <!-- Card -->
-             <div class="col-md-2 pe-2 pt-4">
-                <div class="bg-image card shadow-1-strong subcard">
-                    <div class="card-body text-white">
-                        <h5 class="card-title">Profesional Art Printing Data</h5>
-                        <p class="card-text">
-                            A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard
-                        </p>
-                        <a href="#" class="btn btn-outline-light">See Project</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+        <!-- Card -->
+        <div class="col-md-2 pe-2 pt-4">
+          <div class="bg-image card shadow-1-strong subcard">
+            <div class="card-body text-white">
+              <h5 class="card-title">Profesional Art Printing Data</h5>
+              <p class="card-text">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <a href="#" class="btn btn-outline-light">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- About Section -->
+    <section class="bg-dark">
+      <div class="container-fluid">
+        <div class="row justify-content-between">
+          <div
+            class="col-md-5 text-start text-md-start d-flex align-items-center"
+          >
+            <h1>
+              <div class="fs-1 fw-bold text-light mt-5 mb-2">About me</div>
+              <div class="fs-4 fw-lighter text-light mt-4 mb-5">
+                Hello I'm a software developer! I can help you build a product ,
+                feature or website Look through some of my work and experience!
+                If you like what you see and have a project you need coded,
+                don't hestiate to contact me.
+              </div>
+            </h1>
+          </div>
+          <div class="col-md-5 text-end d-none d-md-block">
+            <img
+              class="img-fuild w-25"
+              src="images/about-me-bkg.svg"
+              alt="Background Pattern"
+            />
+          </div>
+          <div>
+            <button type="button" class="btn btn-warning">See Project</button>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
